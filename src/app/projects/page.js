@@ -25,6 +25,22 @@ function page() {
       <Card />
 
       <Card 
+        img= "/poke.png"
+        title = "Pokedex App"
+        desc = "I used https://pokeapi.co/ for the api. You can learn many information about pokemon by typing the name of the pokemon you want in the search section."
+        link = "https://searchpoke-reactjs.netlify.app/"
+      />
+      <Card />
+
+      <Card 
+        img= "/elon.png"
+        title = "Money Spending App"
+        desc = "In this app, you can buy things from the market by spending Elon Musk's money. You can see your purchases in the receipt section at the bottom."
+        link = "https://spend-money-elonmusk.netlify.app/"
+      />
+      <Card />
+
+      <Card 
         img= "/weather.png"
         title = "Weather App"
         desc = "This app helps you see the weather in your desired location. I did it via OpenWeather API. It shows how many degrees the air is in degrees, the minimum and maximum temperature range and weather information (sunny, cloudy, rainy) during the day."
